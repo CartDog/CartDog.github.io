@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Carters Lit Blog</title>
+    </head>
+    <style>
+		body{
+			background-color:#C3C7A7;
+		}
+        #title{
+            background-color:rgb(54, 218, 255);
+            line-height:3;
+			text-align:center;
+            
+        }
+        #contents{
+            background-color:rgb(81, 245, 135);
+        }
+		table, th, td {
+            border: 1px solid black;
+			border-collapse: collapse;
+        }
+		#links{
+			background-color:#A3ABAD;
+			text-align:center;
+			line-height:3;
+			margin:1em auto;
+			width:100%
+		}
+    </style>
+    <body>
+		<table id="links">
+			<tr>
+				<th><a href="file:///C:/Users/carter/Desktop/Website/AboutMe.html">About Me</a></th>
+				<th><a href="file:///C:/Users/carter/Desktop/Website/MyFamily.html">My Family</a></th>
+				<th><a href="file:///C:/Users/carter/Desktop/Website/MyHockeyTeam.html">My Hockey Team</a></th>
+				<th><a href="file:///C:/Users/carter/Desktop/Website/MyDog.html">My Dog</a></th>
+			</tr>
+		</table>
+        <h1 id="title", id="top">Carter's Lit Blog</h1>
+        <h3 id="contents">Contents</h3>
+        <ul id="contents">
+            <li><a href="#myLife">My Life</a>-Whats going on in my life right now(1/25/19)</li>
+            <li><a href="#someFunnyStory">Some Funny Story</a>-Just a little funny(kind of dumb) story</li>
+			<li><a href="#someRandomThing">Some Random Thing That Happened</a>-A little story about something random</li>
+            <li><a href="#theLastThing">The Last Thing</a>-A little note about this webpage</li>
+			<li><a href="#littleNote">A Little Note</a>-Just an update really, so nothing significant</li>
+        </ul>
+
+        <h2 id="myLife">My Life</h2>
+        <h6>Posted: 1/24/19</h6>
+
+        <p>Well my life is pretty cool I guess. I like to play hockey and go<br>
+		four-wheeling. My entire family also rides four-wheelers. Both<br>
+		my brothers have a four-wheeler and my parents have a side by
+		<img src="images/SweetPicOfMe.jpg" alt="A Picture of me(Carter)" 
+		width=500px, height=500px style="float:right"><br>
+		side. I enjoy winter and summer equally, I like to play in the<br>
+		snow, but I also enjoy go on trails in summer. My favorite class<br>
+		is math and I do pretty good in it. I have a dog, two brothers,<br>
+		and both my parents. We all play hockey except my dog,<br>
+		obviously, and my mom. My one brother plays comp. and my other<br>
+		brother is a mini-mite. Basically hockey is the best.</p>
+
+        <h2 id="someFunnyStory">Some Funny Story</h2>
+        <h6>Posted: 1/25/19</h6>
+
+        <p>So... I guess at the time, the funniest thing I can think of is the<br>
+		other day when my friends and I had to do lunch clean up duty. It's<br>
+		funny because, we didn't actually do anything to deserve it. The people<br>
+		we sit next to are slobs and create giant messes. The teachers just so<br>
+		happen to see us at the table every day, so therefore, we had to clean<br>
+		up. I personally found it annoying, but funny too. I mean they just picked us<br>
+		because they see us there all the time and so they assumed it was us. In my<br>
+		opinion, it's pretty funny. Some people are not that smart.</p>
+
+		<h2 id="someRandomThing">Some Random Thing That Happened Today</h2>
+        <h6>Posted: 1/25/19</h6>
+
+        <p>Something random that happened today was one of my teachers questions. Me and my<br>
+		friends we sitting eating lunch when the SRC(Detention) teacher comes over and<br>
+		asked how many days we had to clean up lunch. There's nothing that significant about<br>
+		it, but it was just random. It was random really only because we hadn't had to do<br>
+		it in like two days, so I didn't know why he asked our table again. This leads to something<br>
+		else that I did. So back to the thing I said about the whole lunch clean up thing.<br>
+		Since we had to do that, we moved to a different table. We figured we could <br>
+		prove to them that we were not the slobs. I think they just wanted us to be miserable<br>
+		Honestly, I think if there was a mess again, they would still tell us to clean it up, you know because<br>
+		our school is extremely fair.</p>
+
+		<h2 id="theLastThing">The Last Thing</h2>
+        <h6>Posted: 1/25/19</h6>
+
+        <p>I just want to clarify something. This is really more of a diary since no one else will<br>
+		probably even see it, so yeah. Well okay... self, that's all I had to say for today. Talk to<br>
+		whoever whenever.</p>
+
+		<h2 id="littleNote">A little note</h2>
+        <h6>Posted: 1/26/19</h6>
+
+        <p>Hey guys, just updating you, I'm doing some work on the website, so you can press the buttons at<br>
+		the top, but they won't really do anything. Otherwise, I'm having a good day. Currently, it's just me and<br>
+		my dad, so it's pretty lit. Okay, well peace out!</p>
+		     <p><b><a href="#top">Back To The Top</a></b><br>
+
+    </body>
+</html>
