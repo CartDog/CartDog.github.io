@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>A Lit Game</title>
+</head>
+
+<body>
+ <script>
+    var bodyX = 200;
+    var bodyY = 200;
+    var bodyS = 100;
+    var armP = bodyX;
+    var foreArm = 73;
+    var bGlove = armP;
+    var score = 0;
+    var punchingBag = 100;
+    var Drawboxer = function() 
+    {
+        fill(207, 201, 201);
+        ellipse(bodyX-120,bodyY-60,bodyS-75,bodyS-25); //neck
+        fill(69, 60, 60);
+        ellipse(bodyX-120,bodyY,bodyS,bodyS); //body
+        ellipse(bodyX-120,bodyY+75,bodyS-91,bodyS-25); //leg
+        ellipse(bodyX-112,bodyY+116,bodyS-73,bodyS-89); //foot
+        ellipse(bodyX-130,bodyY+-21,bodyS-78,bodyS-55); //"bicept"
+        ellipse(armP-99,bodyY+-3,foreArm,bodyS-87); //forearm
+        fill(255, 0, 0);
+        ellipse(bGlove-53,bodyY+1,bodyS-70,bodyS-70); //boxing glove
+        fill(8, 7, 7);
+        ellipse(bodyX-120,bodyY-100,bodyS-50,bodyS-50); //head
+    };
+    var drawPunchingBag = function()
+    {
+        fill(255, 0, 0);
+        strokeWeight(5);
+        rect(punchingBag+160, punchingBag-25, 100, 254, 231); 
+        line(308, 329, 310, 75);
+        line(335, 325, 318, 75);
+        line(281, 324, 302, 75);
+        strokeWeight(10);
+        line(308, 100, 310, 0);
+    };
+
+
+    var draw= function() {
+        strokeWeight(2);
+        background(120, 120, 120);
+        Drawboxer();
+        drawPunchingBag();
+        fill(28, 15, 15);
+        textSize(20);
+        text("Your Score is:" + score, 85, 26);   
+        if(keyIsPressed && keyCode === RIGHT){
+            bodyX+=5; 
+            armP+=5;
+        }   
+        if(keyIsPressed && keyCode === LEFT){
+            bodyX-=5;
+            armP-=5;
+        }
+        if(mouseIsPressed){
+            armP+=1;
+            foreArm+=1.7;
+            bGlove+=1.7;
+        }else{
+            armP=bodyX;
+            foreArm=73;
+            bGlove=armP;
+        }
+        if(bGlove > 325){
+            armP = bodyX;
+            bGlove = armP;
+            foreArm = 73;
+        }
+        if(bodyX > 315){
+            bodyX = 315;
+        }
+        if(bodyX < 100){
+            bodyX = 100;   
+        }
+        if(bGlove > 324){
+            score+=1;
+        }else{
+            punchingBag = 100;
+    }
+    };
+  <script>
+</body>
+
+</html>
