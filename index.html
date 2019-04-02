@@ -111,29 +111,5 @@
 		the top, but they won't really do anything. Otherwise, I'm having a good day. Currently, it's just me and<br>
 		my dad, so it's pretty lit. Okay, well peace out!</p>
 		     <p><b><a href="#top">Back To The Top</a></b><br>
-                 
-        <script>
-		function startGame() {
-		  myGamePiece = new component(30, 30, "red", 10, 120);
-		  myGamePiece.gravity = 0.05;
-		  myScore = new component("30px", "Consolas", "black", 280, 40, "text");
-		  myGameArea.start();
-		}
-
-		var myGameArea = {
-		  canvas : document.createElement("canvas"),
-		  start : function() {
-		    this.canvas.width = 480;
-		    this.canvas.height = 270;
-		    this.context = this.canvas.getContext("2d");
-		    document.body.insertBefore(this.canvas, document.body.childNodes[0]);
-		    this.frameNo = 0;
-		  },
-		  clear : function() {
-		    this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
-		  }
-		}
-        </script>
-        
-    </body>
+	</body>
 </html>
