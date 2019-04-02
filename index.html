@@ -9,7 +9,7 @@
 			background-color:#C3C7A7;
 		}
         #title{
-            background-color:rgb(54, 218, 255);
+            background-color:#A3ABAD;
             line-height:3;
 			text-align:center;
             
@@ -18,25 +18,32 @@
             background-color:rgb(81, 245, 135);
         }
 		table, th, td {
-            border: 1px solid black;
-			border-collapse: collapse;
+            
         }
 		#links{
 			background-color:#A3ABAD;
 			text-align:center;
 			line-height:3;
 			margin:1em auto;
-			width:100%
+			width:100%;
 		}
+        button {
+            padding: 15px 75px;
+            font-size:15px;
+        }
     </style>
     <body>
 		<table id="links">
 			<tr>
-				<th><button type = "button">About Me</button></th>
-				<th><a href="MyFamily.html">My Family</a></th>
-				<th><a href="MyHockeyTeam.html">My Hockey Team</a></th>
-				<th><a href="MyDog.html">My Dog</a></th>
-				<th><a href="Game.html">A Game</a></th>
+				<th><button type = "button" id = "aboutMe" onclick="window.location.href='AboutMe.html'">About Me</button></th>
+				
+                <th><button type = "button" id = "myFamily" onclick="window.location.href='MyFamily.html'">My Family</button></th>
+				
+                <th><button type = "button" id = "myHockeyTeam" onclick="window.location.href='MyHockeyTeam.html'">My Hockey Team</button></th>
+				
+                <th><button type = "button" id = "myDog" onclick="window.location.href='MyDog'">My Dog</button></th>
+                
+                <th><button type = "button" id = "aDog" onclick="window.location.href='AGame.html'">A Game</button></th>
 			</tr>
 		</table>
         <h1 id="title", id="top">Carter's Lit Blog</h1>
@@ -104,6 +111,14 @@
 		the top, but they won't really do anything. Otherwise, I'm having a good day. Currently, it's just me and<br>
 		my dad, so it's pretty lit. Okay, well peace out!</p>
 		     <p><b><a href="#top">Back To The Top</a></b><br>
+                 
+        // <script>
+          //  var aboutMe = document.getElementById("aboutMe")
+            
+           // var onClick = function() {
+                
+           // }
+       // </script>
         
     </body>
 </html>
